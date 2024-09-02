@@ -1,0 +1,13 @@
+<map id="FlowImplementation::getDestiny" name="FlowImplementation::getDestiny">
+<area shape="rect" id="Node000001" title="Get the Destiny object." alt="" coords="266,139,402,181"/>
+<area shape="rect" id="Node000002" href="$class_flow_logistic_implementation.html#acf4754fa1d92541eea34df3e1fa4c8c0" title=" " alt="" coords="21,5,202,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="301,130,262,94,216,62,192,51,194,46,219,58,266,90,304,126"/>
+<area shape="rect" id="Node000003" href="$class_flow_exponential_implementation.html#aaea16f0f81702a35c75832bddec62e3e" title="Construct a new Flow Exponential Implementation object." alt="" coords="5,72,218,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,138,184,118,186,113,252,133"/>
+<area shape="rect" id="Node000004" href="$class_flow_implementation.html#a5e8ed48006bd93acf8bc3a8c6aa0038e" title="Construct a new Flow Implementation object." alt="" coords="39,139,184,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="251,163,184,163,184,157,251,157"/>
+<area shape="rect" id="Node000005" href="$class_flow_logistic_implementation.html#a397f6e4b49c9b7b440465db2f3fa78a6" title="Construct a new Flow Logistic Implementation object." alt="" coords="17,205,206,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="252,187,186,207,184,202,250,182"/>
+<area shape="rect" id="Node000006" href="$class_flow_implementation.html#aeb23cf2104134b5430a493f153e4d340" title=" " alt="" coords="43,272,180,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="304,194,266,230,219,262,181,279,179,274,216,258,262,226,301,190"/>
+</map>

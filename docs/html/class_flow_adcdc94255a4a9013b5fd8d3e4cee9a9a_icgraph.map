@@ -1,0 +1,17 @@
+<map id="Flow::getDestiny" name="Flow::getDestiny">
+<area shape="rect" id="Node000001" title="Get the Destiny object." alt="" coords="667,56,785,83"/>
+<area shape="rect" id="Node000002" href="$unit_flow_8cpp.html#a4965358b9c104dc75cf98a59e781bde9" title="This function does the unit test of the constructor." alt="" coords="475,5,619,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="661,54,596,35,598,30,662,49"/>
+<area shape="rect" id="Node000006" href="$unit_flow_8cpp.html#a6f3e18d902a488b8ab319cafd0cd7496" title="This function does the unit test of the getDestiny." alt="" coords="477,56,617,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="651,72,617,72,617,67,651,67"/>
+<area shape="rect" id="Node000007" href="$unit_flow_8cpp.html#a7fbdbc0f3224dc13727b44051793d6e2" title="This function does the unit test of the setDestiny." alt="" coords="477,107,617,133"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="662,90,598,109,596,104,661,85"/>
+<area shape="rect" id="Node000003" href="$unit_flow_8cpp.html#aa4541b36497258012d8181b39fbd4bd2" title="This function run the unit test of the flow." alt="" coords="302,56,427,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="482,39,416,58,415,53,481,34"/>
+<area shape="rect" id="Node000004" href="$unit__tests_8cpp.html#aaef0e580ac1123f30a7c742b9b73e51a" title="This function run all unit tests." alt="" coords="103,56,254,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="286,72,254,72,254,67,286,67"/>
+<area shape="rect" id="Node000005" href="$unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="461,72,428,72,428,67,461,67"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="481,104,415,86,416,81,482,99"/>
+</map>

@@ -1,0 +1,127 @@
+<map id="run_unit_tests_globals" name="run_unit_tests_globals">
+<area shape="rect" id="Node000001" title="This function run all unit tests." alt="" coords="5,829,157,856"/>
+<area shape="rect" id="Node000002" href="$unit_flow_8cpp.html#aa4541b36497258012d8181b39fbd4bd2" title="This function run the unit test of the flow." alt="" coords="215,233,340,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,828,265,274,270,275,89,830"/>
+<area shape="rect" id="Node000023" href="$unit_model_8cpp.html#a0a91444ef4956e94bce9b7737b2582cf" title="This function run the unit test of the model." alt="" coords="209,829,347,856"/>
+<area shape="poly" id="edge28_Node000001_Node000023" title=" " alt="" coords="157,840,193,840,193,845,157,845"/>
+<area shape="rect" id="Node000045" href="$unit_system_8cpp.html#a8cfaf99e5cc4abba4da8dbc67699aad7" title="This function run the unit test of the system." alt="" coords="205,1221,351,1248"/>
+<area shape="poly" id="edge61_Node000001_Node000045" title=" " alt="" coords="92,855,265,1206,261,1209,87,858"/>
+<area shape="rect" id="Node000003" href="$unit_flow_8cpp.html#a4965358b9c104dc75cf98a59e781bde9" title="This function does the unit test of the constructor." alt="" coords="410,208,553,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,236,394,229,395,235,341,242"/>
+<area shape="rect" id="Node000007" href="$unit_flow_8cpp.html#aa9c5113c9769271d9810118a247bca01" title="This function does the unit test of the destructor." alt="" coords="413,157,549,184"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="309,230,398,194,417,187,419,192,400,198,311,235"/>
+<area shape="rect" id="Node000008" href="$unit_flow_8cpp.html#ae45024c61711826abda94b5c9591edc7" title="This function does the unit test of the execute." alt="" coords="419,829,543,856"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="283,260,297,362,322,520,357,681,378,745,401,790,416,806,434,819,430,823,412,810,397,794,373,747,352,682,317,521,291,363,278,261"/>
+<area shape="rect" id="Node000014" href="$unit_flow_8cpp.html#a6f3e18d902a488b8ab319cafd0cd7496" title="This function does the unit test of the getDestiny." alt="" coords="411,309,551,336"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="311,258,400,295,419,302,417,307,398,300,309,263"/>
+<area shape="rect" id="Node000015" href="$unit_flow_8cpp.html#a429574b5f0c20899d317d1dc2329f978" title="This function does the unit test of the getId." alt="" coords="428,259,534,285"/>
+<area shape="poly" id="edge15_Node000002_Node000015" title=" " alt="" coords="341,252,413,261,413,266,341,257"/>
+<area shape="rect" id="Node000016" href="$unit_flow_8cpp.html#aa9b5d1d6a9b5aadc2083f100b0c6596a" title="This function does the unit test of the getSource." alt="" coords="412,56,550,83"/>
+<area shape="poly" id="edge17_Node000002_Node000016" title=" " alt="" coords="284,232,326,165,358,126,397,93,406,87,409,92,401,97,362,130,330,169,288,234"/>
+<area shape="rect" id="Node000017" href="$unit_flow_8cpp.html#a7fbdbc0f3224dc13727b44051793d6e2" title="This function does the unit test of the setDestiny." alt="" coords="411,360,551,387"/>
+<area shape="poly" id="edge19_Node000002_Node000017" title=" " alt="" coords="294,259,338,301,368,325,400,346,412,351,410,356,398,350,365,329,335,305,290,262"/>
+<area shape="rect" id="Node000019" href="$unit_flow_8cpp.html#a65580307a6373fb680bc9c52d8bcde4d" title="This function does the unit test of the setId." alt="" coords="428,107,534,133"/>
+<area shape="poly" id="edge22_Node000002_Node000019" title=" " alt="" coords="290,231,335,188,365,164,398,143,412,136,415,141,400,148,368,168,338,192,294,235"/>
+<area shape="rect" id="Node000021" href="$unit_flow_8cpp.html#a6c839e92f50b2fc37595ac2f21808dbb" title="This function does the unit test of the setSource." alt="" coords="412,5,550,32"/>
+<area shape="poly" id="edge25_Node000002_Node000021" title=" " alt="" coords="281,232,295,194,318,143,352,89,374,64,397,42,404,37,407,42,401,46,377,68,357,92,323,146,300,197,286,234"/>
+<area shape="rect" id="Node000004" href="$class_flow.html#adcdc94255a4a9013b5fd8d3e4cee9a9a" title="Get the Destiny object." alt="" coords="625,284,743,311"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="531,233,564,244,639,275,637,280,562,249,529,238"/>
+<area shape="rect" id="Node000005" href="$class_flow.html#ab301807d53f64a0f2b755c729c0c666d" title="Get the Id object." alt="" coords="642,208,726,235"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="553,219,626,219,626,224,553,224"/>
+<area shape="rect" id="Node000006" href="$class_flow.html#abf0f3dbb285fe82e5ba6449de06b97c8" title="Get the Source object." alt="" coords="626,56,742,83"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="544,205,562,194,573,182,579,170,585,145,591,119,598,106,609,93,614,89,618,93,613,97,602,109,596,121,590,146,584,172,577,185,565,198,547,210"/>
+<area shape="rect" id="Node000009" href="$class_model.html#afde6c25ab942f2eec7aedeaf8eec53fd" title=" " alt="" coords="805,841,890,868"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="529,854,612,877,684,884,756,877,791,870,792,875,757,883,684,889,611,883,528,859"/>
+<area shape="rect" id="Node000010" href="$class_model.html#a70d1a18b51f1184b56b101becefe71dc" title=" " alt="" coords="638,639,730,665"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="512,827,538,811,561,790,572,775,578,761,583,733,589,704,597,690,610,675,622,666,625,671,613,679,601,693,594,706,588,734,583,762,576,778,565,794,541,815,515,831"/>
+<area shape="rect" id="Node000011" href="$class_model.html#a60f1d389bde3a1c9346406bf62ac8f4f" title=" " alt="" coords="629,943,739,969"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="542,854,565,866,581,880,590,894,599,908,613,922,631,933,629,938,610,926,595,911,586,897,577,883,562,870,540,859"/>
+<area shape="rect" id="Node000012" href="$class_system.html#a41b673faa6c199eb8e4f204639fab4f2" title="Get the Value object." alt="" coords="621,1196,747,1223"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="545,851,565,866,580,887,591,907,600,947,598,987,591,1026,583,1065,581,1103,590,1143,599,1162,613,1182,615,1184,611,1188,609,1186,595,1165,585,1144,576,1104,578,1064,585,1025,593,986,594,948,586,909,576,890,561,870,542,856"/>
+<area shape="rect" id="Node000013" href="$class_system.html#a5135c3ab7154002f7ad9907e328851cd" title="Set the Value object." alt="" coords="621,1145,747,1172"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="545,852,565,866,587,900,596,934,596,968,591,1001,586,1033,585,1066,593,1098,613,1132,615,1134,611,1137,609,1135,588,1100,580,1066,580,1033,585,1000,590,967,591,935,583,903,561,870,542,856"/>
+<area shape="poly" id="edge14_Node000014_Node000004" title=" " alt="" coords="552,311,610,304,610,309,552,317"/>
+<area shape="poly" id="edge16_Node000015_Node000005" title=" " alt="" coords="534,256,626,233,628,238,535,261"/>
+<area shape="poly" id="edge18_Node000016_Node000006" title=" " alt="" coords="550,67,611,67,611,72,550,72"/>
+<area shape="poly" id="edge20_Node000017_Node000004" title=" " alt="" coords="531,357,562,346,610,320,625,314,627,319,612,325,564,350,533,362"/>
+<area shape="rect" id="Node000018" href="$class_flow.html#a4eb5e8714d7972d31d3b8c3b03b196e8" title="Set the Destiny object." alt="" coords="625,335,743,361"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="552,362,610,355,610,360,552,367"/>
+<area shape="poly" id="edge23_Node000019_Node000005" title=" " alt="" coords="535,131,564,143,613,169,654,197,651,201,610,174,562,148,533,136"/>
+<area shape="rect" id="Node000020" href="$class_flow.html#a0fc5960be2255889bf87b0d444230406" title="Set the Id object." alt="" coords="642,107,726,133"/>
+<area shape="poly" id="edge24_Node000019_Node000020" title=" " alt="" coords="535,117,626,117,626,123,535,123"/>
+<area shape="poly" id="edge26_Node000021_Node000006" title=" " alt="" coords="538,30,614,49,612,54,537,35"/>
+<area shape="rect" id="Node000022" href="$class_flow.html#a42ce99a961622788ae59bb73abad3bb3" title="Set the Source object." alt="" coords="626,5,742,32"/>
+<area shape="poly" id="edge27_Node000021_Node000022" title=" " alt="" coords="550,16,611,16,611,21,550,21"/>
+<area shape="rect" id="Node000024" href="$unit_model_8cpp.html#af24a11a5c704e2706d85c61ff94c105e" title="This function does the unit test of the add." alt="" coords="425,993,537,1020"/>
+<area shape="poly" id="edge29_Node000023_Node000024" title=" " alt="" coords="291,855,336,908,367,939,401,967,430,984,427,989,397,972,363,943,332,912,287,858"/>
+<area shape="rect" id="Node000031" href="$unit_model_8cpp.html#abf11af138947b8cf51aa32bf62789a56" title="This function does the unit test of the clear." alt="" coords="422,588,541,615"/>
+<area shape="poly" id="edge35_Node000023_Node000031" title=" " alt="" coords="288,827,457,625,461,628,293,831"/>
+<area shape="rect" id="Node000034" href="$unit_model_8cpp.html#a172588ae62e1d8f985f04154ee1f6b49" title="This function does the unit test of the constructor." alt="" coords="403,880,559,907"/>
+<area shape="poly" id="edge40_Node000023_Node000034" title=" " alt="" coords="335,854,411,873,409,878,334,859"/>
+<area shape="rect" id="Node000035" href="$unit_model_8cpp.html#a75673db35a973d8c006a4146266feb6a" title="This function does the unit test of the destructor." alt="" coords="406,931,556,957"/>
+<area shape="poly" id="edge41_Node000023_Node000035" title=" " alt="" coords="299,854,344,885,400,916,415,922,413,927,398,921,341,890,296,859"/>
+<area shape="rect" id="Node000036" href="$unit_model_8cpp.html#a25f9d7f6dda2d7d484117aa35f99dcf2" title="This function does the unit test of the getId." alt="" coords="422,512,541,539"/>
+<area shape="poly" id="edge42_Node000023_Node000036" title=" " alt="" coords="280,828,292,782,316,716,350,643,372,607,397,574,414,558,434,545,437,549,418,562,401,578,376,610,355,645,320,718,297,784,285,830"/>
+<area shape="rect" id="Node000038" href="$unit_model_8cpp.html#a55a5581aa9a0b463026719932ec24d3a" title="This function does the unit test of the remove." alt="" coords="415,753,547,780"/>
+<area shape="poly" id="edge44_Node000023_Node000038" title=" " alt="" coords="315,826,428,784,430,789,317,831"/>
+<area shape="rect" id="Node000042" href="$unit_model_8cpp.html#a0e33a676fc2b2bdce884c94f3dda5e4d" title="This function does the unit test of the run." alt="" coords="426,1044,536,1071"/>
+<area shape="poly" id="edge52_Node000023_Node000042" title=" " alt="" coords="286,855,301,891,325,938,358,987,401,1030,414,1038,411,1043,397,1034,354,991,320,940,296,893,282,857"/>
+<area shape="rect" id="Node000043" href="$unit_model_8cpp.html#af59fd32f956fbfca2b2699e0355a5920" title="This function does the unit test of the setId." alt="" coords="422,436,541,463"/>
+<area shape="poly" id="edge58_Node000023_Node000043" title=" " alt="" coords="278,828,287,771,308,685,323,637,343,588,367,541,397,498,414,482,433,468,436,473,417,486,401,502,372,544,348,591,328,639,313,686,292,772,283,829"/>
+<area shape="rect" id="Node000025" href="$class_model.html#aa415a9a7be0545b1342bf5ae927f90f9" title="Create a Flow object." alt="" coords="620,1044,748,1071"/>
+<area shape="poly" id="edge30_Node000024_Node000025" title=" " alt="" coords="538,1018,614,1037,612,1042,537,1023"/>
+<area shape="rect" id="Node000026" href="$class_model.html#a402b02bcd692d398ec73d1707d982976" title="Create a Model object." alt="" coords="616,1095,752,1121"/>
+<area shape="poly" id="edge32_Node000024_Node000026" title=" " alt="" coords="539,1017,565,1030,580,1043,590,1056,599,1068,613,1080,621,1085,619,1090,610,1085,595,1072,585,1059,576,1046,562,1034,537,1022"/>
+<area shape="rect" id="Node000029" href="$class_model.html#ad32a4aaa4b0c50f0e65644875cfc054b" title="Create a System object." alt="" coords="611,993,757,1020"/>
+<area shape="poly" id="edge33_Node000024_Node000029" title=" " alt="" coords="538,1004,596,1004,596,1009,538,1009"/>
+<area shape="rect" id="Node000030" href="$class_model.html#a0b1ce2be73d91c808ae7f2d549995dd8" title=" " alt="" coords="614,841,754,868"/>
+<area shape="poly" id="edge34_Node000024_Node000030" title=" " alt="" coords="518,990,562,967,616,922,659,878,663,882,620,926,565,972,521,995"/>
+<area shape="poly" id="edge31_Node000025_Node000009" title=" " alt="" coords="737,1041,755,1030,785,996,808,956,825,916,836,882,841,884,830,918,813,958,789,999,758,1034,740,1046"/>
+<area shape="poly" id="edge36_Node000031_Node000009" title=" " alt="" coords="510,585,561,565,626,550,660,547,695,549,728,557,758,574,786,599,807,630,823,664,834,700,847,770,849,826,844,826,841,771,829,702,818,666,802,633,782,603,755,578,726,562,694,554,660,552,627,555,562,570,512,590"/>
+<area shape="poly" id="edge37_Node000031_Node000010" title=" " alt="" coords="538,613,624,634,622,639,537,618"/>
+<area shape="rect" id="Node000032" href="$class_model.html#a29f5c60c170d9e072397b41dfb2f2043" title=" " alt="" coords="628,487,740,513"/>
+<area shape="poly" id="edge38_Node000031_Node000032" title=" " alt="" coords="506,585,610,530,635,518,638,522,613,534,508,590"/>
+<area shape="rect" id="Node000033" href="$class_model.html#ab0d589d70421a394e4032e410522f03a" title=" " alt="" coords="617,588,751,615"/>
+<area shape="poly" id="edge39_Node000031_Node000033" title=" " alt="" coords="541,599,602,599,602,604,541,604"/>
+<area shape="rect" id="Node000037" href="$class_model.html#a782ff8655b59a40bdec1e9262a5630e5" title="Get the Id object." alt="" coords="638,436,730,463"/>
+<area shape="poly" id="edge43_Node000036_Node000037" title=" " alt="" coords="516,509,610,472,627,466,629,471,612,477,518,514"/>
+<area shape="poly" id="edge45_Node000038_Node000009" title=" " alt="" coords="548,778,757,827,790,836,789,841,756,832,547,783"/>
+<area shape="poly" id="edge46_Node000038_Node000010" title=" " alt="" coords="498,751,547,714,610,675,623,669,625,674,613,680,550,718,501,755"/>
+<area shape="poly" id="edge49_Node000038_Node000030" title=" " alt="" coords="515,778,639,832,636,837,513,783"/>
+<area shape="poly" id="edge51_Node000038_Node000033" title=" " alt="" coords="489,751,536,691,571,656,610,624,619,619,621,624,613,629,574,660,540,695,494,755"/>
+<area shape="rect" id="Node000039" href="$class_system.html#a9d3102e4d29eb924dbf6babda1314e6a" title="Get the Id object." alt="" coords="633,1297,735,1324"/>
+<area shape="poly" id="edge47_Node000038_Node000039" title=" " alt="" coords="520,778,545,794,566,816,593,873,604,925,604,974,598,1022,591,1070,587,1120,593,1174,614,1234,632,1262,655,1285,651,1289,628,1265,609,1236,588,1175,582,1120,585,1070,593,1021,599,974,599,926,588,875,561,819,541,798,517,783"/>
+<area shape="rect" id="Node000040" href="$class_model.html#a9f4cb42b7c0cb3ba5cb0118bc8815de5" title=" " alt="" coords="631,689,737,716"/>
+<area shape="poly" id="edge48_Node000038_Node000040" title=" " alt="" coords="525,750,624,719,625,724,527,755"/>
+<area shape="rect" id="Node000041" href="$class_model.html#af5823c24a9555b34bbafb5fa835e198f" title=" " alt="" coords="619,740,749,767"/>
+<area shape="poly" id="edge50_Node000038_Node000041" title=" " alt="" coords="547,760,603,756,603,761,548,765"/>
+<area shape="poly" id="edge56_Node000042_Node000011" title=" " alt="" coords="535,1042,562,1030,576,1018,585,1005,595,992,610,979,619,974,621,979,613,984,599,996,590,1008,580,1021,565,1034,538,1047"/>
+<area shape="poly" id="edge57_Node000042_Node000012" title=" " alt="" coords="513,1069,539,1085,565,1106,581,1127,589,1146,597,1164,613,1182,618,1186,615,1190,610,1186,592,1167,584,1148,576,1130,561,1110,536,1089,510,1074"/>
+<area shape="poly" id="edge53_Node000042_Node000025" title=" " alt="" coords="536,1055,605,1055,605,1060,536,1060"/>
+<area shape="poly" id="edge54_Node000042_Node000026" title=" " alt="" coords="537,1068,613,1088,612,1093,535,1073"/>
+<area shape="poly" id="edge55_Node000042_Node000029" title=" " alt="" coords="535,1041,612,1022,613,1027,537,1046"/>
+<area shape="poly" id="edge59_Node000043_Node000037" title=" " alt="" coords="541,447,622,447,622,452,541,452"/>
+<area shape="rect" id="Node000044" href="$class_model.html#adfd35b64b7fab8d058351bf125a9d117" title="Set the Id object." alt="" coords="638,385,730,412"/>
+<area shape="poly" id="edge60_Node000043_Node000044" title=" " alt="" coords="537,433,622,411,624,416,538,438"/>
+<area shape="rect" id="Node000046" href="$unit_system_8cpp.html#a9b6fbdfa7c98ba246778d8ecb21b90fd" title="This function does the unit test of the constructor." alt="" coords="399,1272,563,1299"/>
+<area shape="poly" id="edge62_Node000045_Node000046" title=" " alt="" coords="335,1246,411,1265,409,1270,334,1251"/>
+<area shape="rect" id="Node000047" href="$unit_system_8cpp.html#ab4642eeb7c23bfc4315517cc70fb3b3e" title="This function does the unit test of the destructor." alt="" coords="402,1221,560,1248"/>
+<area shape="poly" id="edge65_Node000045_Node000047" title=" " alt="" coords="352,1232,387,1232,387,1237,352,1237"/>
+<area shape="rect" id="Node000048" href="$unit_system_8cpp.html#ae54f782cf77a56cc841005e40be43c18" title="This function does the unit test of the get Id." alt="" coords="418,1323,545,1349"/>
+<area shape="poly" id="edge66_Node000045_Node000048" title=" " alt="" coords="299,1246,344,1277,400,1308,415,1314,413,1319,398,1313,341,1282,296,1251"/>
+<area shape="rect" id="Node000049" href="$unit_system_8cpp.html#a48f887c7ee234a84178b5a13a21da2f6" title="This function does the unit test of the get Value." alt="" coords="406,1171,556,1197"/>
+<area shape="poly" id="edge68_Node000045_Node000049" title=" " alt="" coords="334,1218,409,1199,411,1204,335,1223"/>
+<area shape="rect" id="Node000050" href="$unit_system_8cpp.html#a3fb236d7d5251e68aa51401159cddb0e" title="This function does the unit test of the set Id." alt="" coords="418,1373,545,1400"/>
+<area shape="poly" id="edge70_Node000045_Node000050" title=" " alt="" coords="290,1247,334,1301,365,1332,400,1359,410,1364,407,1369,398,1364,362,1336,330,1305,286,1250"/>
+<area shape="rect" id="Node000052" href="$unit_system_8cpp.html#a0d61b01b335c7e35a9f4bde1fae5322b" title="This function does the unit test of the set Value." alt="" coords="406,1120,556,1147"/>
+<area shape="poly" id="edge73_Node000045_Node000052" title=" " alt="" coords="296,1218,341,1188,398,1156,413,1150,415,1155,400,1161,344,1192,299,1223"/>
+<area shape="poly" id="edge64_Node000046_Node000012" title=" " alt="" coords="529,1269,562,1258,637,1227,639,1232,564,1262,531,1274"/>
+<area shape="poly" id="edge63_Node000046_Node000039" title=" " alt="" coords="564,1293,618,1300,617,1305,564,1298"/>
+<area shape="poly" id="edge67_Node000048_Node000039" title=" " alt="" coords="545,1325,618,1316,618,1322,546,1331"/>
+<area shape="poly" id="edge69_Node000049_Node000012" title=" " alt="" coords="557,1191,606,1197,605,1202,556,1196"/>
+<area shape="poly" id="edge71_Node000050_Node000039" title=" " alt="" coords="529,1370,562,1359,637,1328,639,1333,564,1364,531,1375"/>
+<area shape="rect" id="Node000051" href="$class_system.html#a46a2e57d87742543ff385d4b5c9720df" title="Set the Id object." alt="" coords="633,1373,735,1400"/>
+<area shape="poly" id="edge72_Node000050_Node000051" title=" " alt="" coords="545,1384,618,1384,618,1389,545,1389"/>
+<area shape="poly" id="edge74_Node000052_Node000012" title=" " alt="" coords="533,1145,564,1156,612,1182,627,1188,625,1193,610,1186,562,1161,531,1150"/>
+<area shape="poly" id="edge75_Node000052_Node000013" title=" " alt="" coords="557,1140,606,1146,605,1152,556,1145"/>
+</map>

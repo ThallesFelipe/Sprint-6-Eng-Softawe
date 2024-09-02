@@ -1,0 +1,67 @@
+\doxysection{unit\+System.\+cpp}
+\hypertarget{unit_system_8cpp_source}{}\label{unit_system_8cpp_source}\index{MyVensim/test/unit/unitSystem.cpp@{MyVensim/test/unit/unitSystem.cpp}}
+\mbox{\hyperlink{unit_system_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{unit_system_8h}{unitSystem.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00003}\mbox{\hyperlink{unit_system_8cpp_a9b6fbdfa7c98ba246778d8ecb21b90fd}{00003}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit_system_8cpp_a9b6fbdfa7c98ba246778d8ecb21b90fd}{unit\_system\_constructor}}()}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00004}00004\ \{}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00005}00005\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *system1\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_system_handle}{SystemHandle}}(\textcolor{stringliteral}{"{}NULL"{}});}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00006}00006\ \ \ \ \ assert(system1-\/>\mbox{\hyperlink{class_system_a9d3102e4d29eb924dbf6babda1314e6a}{getId}}()\ ==\ \textcolor{stringliteral}{"{}NULL"{}});}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00007}00007\ \ \ \ \ assert(system1-\/>\mbox{\hyperlink{class_system_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ ==\ 0);}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00008}00008\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00009}00009\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *system2\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_system_handle}{SystemHandle}}(\textcolor{stringliteral}{"{}test"{}},\ 1);}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00010}00010\ \ \ \ \ assert(system2-\/>\mbox{\hyperlink{class_system_a9d3102e4d29eb924dbf6babda1314e6a}{getId}}()\ ==\ \textcolor{stringliteral}{"{}test"{}});}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00011}00011\ \ \ \ \ assert(system2-\/>\mbox{\hyperlink{class_system_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ ==\ 1);}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00012}00012\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00013}00013\ \ \ \ \ \textcolor{keyword}{delete}\ system1;}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00014}00014\ \ \ \ \ \textcolor{keyword}{delete}\ system2;}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00015}00015\ \};}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00017}\mbox{\hyperlink{unit_system_8cpp_ab4642eeb7c23bfc4315517cc70fb3b3e}{00017}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit_system_8cpp_ab4642eeb7c23bfc4315517cc70fb3b3e}{unit\_system\_destructor}}()\ \{\};}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00019}\mbox{\hyperlink{unit_system_8cpp_a48f887c7ee234a84178b5a13a21da2f6}{00019}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit_system_8cpp_a48f887c7ee234a84178b5a13a21da2f6}{unit\_system\_getValue}}(\textcolor{keywordtype}{void})}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00020}00020\ \{}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00021}00021\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *system1\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_system_handle}{SystemHandle}}(\textcolor{stringliteral}{"{}"{}},\ 10.0);}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00022}00022\ \ \ \ \ assert(system1-\/>\mbox{\hyperlink{class_system_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ ==\ 10);}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00024}00024\ \ \ \ \ \textcolor{keyword}{delete}\ system1;}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00025}00025\ \};}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00026}00026\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00027}\mbox{\hyperlink{unit_system_8cpp_a0d61b01b335c7e35a9f4bde1fae5322b}{00027}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit_system_8cpp_a0d61b01b335c7e35a9f4bde1fae5322b}{unit\_system\_setValue}}(\textcolor{keywordtype}{void})}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00028}00028\ \{}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00029}00029\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *system1\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_system_handle}{SystemHandle}}();}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00030}00030\ \ \ \ \ system1-\/>\mbox{\hyperlink{class_system_a5135c3ab7154002f7ad9907e328851cd}{setValue}}(10);}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00031}00031\ \ \ \ \ assert(system1-\/>\mbox{\hyperlink{class_system_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ ==\ 10);}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00032}00032\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00033}00033\ \ \ \ \ \textcolor{keyword}{delete}\ system1;}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00034}00034\ \};}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00035}00035\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00036}\mbox{\hyperlink{unit_system_8cpp_ae54f782cf77a56cc841005e40be43c18}{00036}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit_system_8cpp_ae54f782cf77a56cc841005e40be43c18}{unit\_system\_getId}}()}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00037}00037\ \{}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00038}00038\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *system1\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_system_handle}{SystemHandle}}(\textcolor{stringliteral}{"{}test"{}});}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00039}00039\ \ \ \ \ assert(system1-\/>\mbox{\hyperlink{class_system_a9d3102e4d29eb924dbf6babda1314e6a}{getId}}()\ ==\ \textcolor{stringliteral}{"{}test"{}});}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00040}00040\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00041}00041\ \ \ \ \ \textcolor{keyword}{delete}\ system1;}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00042}00042\ \};}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00043}00043\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00044}\mbox{\hyperlink{unit_system_8cpp_a3fb236d7d5251e68aa51401159cddb0e}{00044}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit_system_8cpp_a3fb236d7d5251e68aa51401159cddb0e}{unit\_system\_setId}}()}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00045}00045\ \{}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00046}00046\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *system1\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_system_handle}{SystemHandle}}();}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00047}00047\ \ \ \ \ system1-\/>\mbox{\hyperlink{class_system_a46a2e57d87742543ff385d4b5c9720df}{setId}}(\textcolor{stringliteral}{"{}test"{}});}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00048}00048\ \ \ \ \ assert(system1-\/>\mbox{\hyperlink{class_system_a9d3102e4d29eb924dbf6babda1314e6a}{getId}}()\ ==\ \textcolor{stringliteral}{"{}test"{}});}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00049}00049\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00050}00050\ \ \ \ \ \textcolor{keyword}{delete}\ system1;}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00051}00051\ \};}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00052}00052\ }
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00053}\mbox{\hyperlink{unit_system_8cpp_a8cfaf99e5cc4abba4da8dbc67699aad7}{00053}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{unit_system_8cpp_a8cfaf99e5cc4abba4da8dbc67699aad7}{run\_unit\_test\_system}}()}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00054}00054\ \{}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00055}00055\ \ \ \ \ \mbox{\hyperlink{unit_system_8cpp_a9b6fbdfa7c98ba246778d8ecb21b90fd}{unit\_system\_constructor}}();}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00056}00056\ \ \ \ \ \mbox{\hyperlink{unit_system_8cpp_ab4642eeb7c23bfc4315517cc70fb3b3e}{unit\_system\_destructor}}();}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00057}00057\ \ \ \ \ \mbox{\hyperlink{unit_system_8cpp_a48f887c7ee234a84178b5a13a21da2f6}{unit\_system\_getValue}}();}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00058}00058\ \ \ \ \ \mbox{\hyperlink{unit_system_8cpp_a0d61b01b335c7e35a9f4bde1fae5322b}{unit\_system\_setValue}}();}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00059}00059\ \ \ \ \ \mbox{\hyperlink{unit_system_8cpp_ae54f782cf77a56cc841005e40be43c18}{unit\_system\_getId}}();}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00060}00060\ \ \ \ \ \mbox{\hyperlink{unit_system_8cpp_a3fb236d7d5251e68aa51401159cddb0e}{unit\_system\_setId}}();}
+\DoxyCodeLine{\Hypertarget{unit_system_8cpp_source_l00061}00061\ \};}
+
+\end{DoxyCode}

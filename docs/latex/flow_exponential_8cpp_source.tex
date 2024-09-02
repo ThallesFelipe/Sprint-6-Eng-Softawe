@@ -1,0 +1,32 @@
+\doxysection{flow\+Exponential.\+cpp}
+\hypertarget{flow_exponential_8cpp_source}{}\label{flow_exponential_8cpp_source}\index{MyVensim/src/flowExponential.cpp@{MyVensim/src/flowExponential.cpp}}
+\mbox{\hyperlink{flow_exponential_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{flow_exponential_8h}{flowExponential.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00003}\mbox{\hyperlink{class_flow_exponential_implementation_a4479efd138eb499baea15832f80b7604}{00003}}\ \mbox{\hyperlink{class_flow_exponential_implementation_a4479efd138eb499baea15832f80b7604}{FlowExponentialImplementation::FlowExponentialImplementation}}()}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00004}00004\ \{}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00005}00005\ \ \ \ \ \textcolor{keywordtype}{id}\ =\ \textcolor{stringliteral}{"{}NULL"{}};}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00006}00006\ \ \ \ \ \mbox{\hyperlink{class_flow_implementation_a025fb9a469f4aec40611b522ef21f0d9}{source}}\ =\ NULL;}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00007}00007\ \ \ \ \ \mbox{\hyperlink{class_flow_implementation_a9049ca847de3ce8ea4be5e3a2648c082}{destiny}}\ =\ NULL;}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00008}00008\ \};}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00010}\mbox{\hyperlink{class_flow_exponential_implementation_aaea16f0f81702a35c75832bddec62e3e}{00010}}\ \mbox{\hyperlink{class_flow_exponential_implementation_a4479efd138eb499baea15832f80b7604}{FlowExponentialImplementation::FlowExponentialImplementation}}(\mbox{\hyperlink{class_flow_exponential_implementation}{FlowExponentialImplementation}}\ \&obj)}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00011}00011\ \{}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00012}00012\ \ \ \ \ \textcolor{keywordflow}{if}\ (\&obj\ ==\ \textcolor{keyword}{this})}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00013}00013\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return};}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00015}00015\ \ \ \ \ \textcolor{keywordtype}{id}\ =\ obj.\mbox{\hyperlink{class_flow_implementation_a2f05c57c3ce2c214fb488e052758065d}{getId}}();}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00016}00016\ \ \ \ \ \mbox{\hyperlink{class_flow_implementation_a025fb9a469f4aec40611b522ef21f0d9}{source}}\ =\ obj.\mbox{\hyperlink{class_flow_implementation_af3cb7d0c03922352ad65eb9be9eb6124}{getSource}}();}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00017}00017\ \ \ \ \ \mbox{\hyperlink{class_flow_implementation_a9049ca847de3ce8ea4be5e3a2648c082}{destiny}}\ =\ obj.\mbox{\hyperlink{class_flow_implementation_a32ba7a19d07ed41fd35685915151c66b}{getDestiny}}();}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00018}00018\ \};}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00019}00019\ }
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00020}\mbox{\hyperlink{class_flow_exponential_implementation_a80669538de23deb2b5c9d935e4b3c645}{00020}}\ \mbox{\hyperlink{class_flow_exponential_implementation_a4479efd138eb499baea15832f80b7604}{FlowExponentialImplementation::FlowExponentialImplementation}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ \textcolor{keywordtype}{id},\ \mbox{\hyperlink{class_system}{System}}\ *source,\ \mbox{\hyperlink{class_system}{System}}\ *destiny)\ :\ \mbox{\hyperlink{class_flow_implementation}{FlowImplementation}}(id,\ source,\ destiny)\ \{\};}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00021}\mbox{\hyperlink{class_flow_exponential_implementation_a7b97ccff3e5604abb0b8244f8674affe}{00021}}\ \mbox{\hyperlink{class_flow_exponential_implementation_a7b97ccff3e5604abb0b8244f8674affe}{FlowExponentialImplementation::\string~FlowExponentialImplementation}}()\ \{\};}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00023}\mbox{\hyperlink{class_flow_exponential_implementation_ae9bdbc3b2642ed6d7c296959beb8af3b}{00023}}\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_flow_exponential_implementation_ae9bdbc3b2642ed6d7c296959beb8af3b}{FlowExponentialImplementation::execute}}()}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00024}00024\ \{}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00025}00025\ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_flow_implementation_af3cb7d0c03922352ad65eb9be9eb6124}{getSource}}()-\/>\mbox{\hyperlink{class_system_a41b673faa6c199eb8e4f204639fab4f2}{getValue}}()\ *\ 0.01;}
+\DoxyCodeLine{\Hypertarget{flow_exponential_8cpp_source_l00026}00026\ \};}
+
+\end{DoxyCode}
